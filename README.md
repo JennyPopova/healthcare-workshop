@@ -18,5 +18,7 @@ Git repository: https://github.com/JennyPopova/healthcare-workshop.git
 Clone repository to compute instance:  git clone https://github.com/JennyPopova/healthcare-workshop.git ./Users/healthcare-workshop
 
 Dataset:  https://www.kaggle.com/sulianova/cardiovascular-disease-dataset 
+
 Deep learning in AzureML:  train-hyperparameter-tune-deploy-with-keras.ipynb
+
 Deep learning in Databricks: https://pages.databricks.com/rs/094-YMS-629/images/keras-hvdrunner-mlflow-mnist-experiments.html
