@@ -17,8 +17,9 @@ AzureML SDK: https://docs.microsoft.com/en-us/python/api/?view=azure-ml-py
 Git repository: https://github.com/JennyPopova/healthcare-workshop.git  
 Clone repository to compute instance:  git clone https://github.com/JennyPopova/healthcare-workshop.git ./Users/healthcare-workshop
 
-Dataset:  https://www.kaggle.com/sulianova/cardiovascular-disease-dataset 
+Tabular Dataset:  https://www.kaggle.com/sulianova/cardiovascular-disease-dataset<br />  
+Picture dataset: https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria
 
-Deep learning in AzureML:  train-hyperparameter-tune-deploy-with-keras.ipynb
 
-Deep learning in Databricks: https://pages.databricks.com/rs/094-YMS-629/images/keras-hvdrunner-mlflow-mnist-experiments.html
+Deep learning in AzureML cluster:  train-hyperparameter-tune-deploy-with-keras.ipynb <br />
+Deep learning in Databricks cluster: https://pages.databricks.com/rs/094-YMS-629/images/keras-hvdrunner-mlflow-mnist-experiments.html
