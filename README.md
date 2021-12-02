@@ -6,15 +6,16 @@ Here is the instruction to follow: https://docs.microsoft.com/en-us/azure/machin
 
 2. Git repository: https://github.com/JennyPopova/healthcare-workshop.git  
 
-Start Terminal in your Compute Instance
-In the Terminal Clone repository to compute instance:  _git clone https://github.com/JennyPopova/healthcare-workshop.git ./Users/healthcare-workshop__
+Start Terminal in your Compute Instance.
 
-3. Dataset
-Download Dataset:  https://www.kaggle.com/sulianova/cardiovascular-disease-dataset
+In the Terminal Clone repository to compute instance:  _git clone https://github.com/JennyPopova/healthcare-workshop.git ./Users/healthcare-workshop_
 
-Register Tabular dataset in AzureML with a name 'cardio_dataset' from local file
+3. Download Dataset:  https://www.kaggle.com/sulianova/cardiovascular-disease-dataset
+   
+   Register Tabular dataset in AzureML with a name 'cardio_dataset' from local file
 
-4. Run automl-explain-model-SHAP.ipynb, explore Experiment section in Azure ML
+4. Run automl-explain-model-SHAP.ipynb, explore Experiment section in Azure ML.
+
   Run custom-ml-deploy-explain.ipynb, explore Experiment section in Azure ML
   
 5. Stop Compute Instance
