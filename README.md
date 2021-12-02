@@ -1,13 +1,22 @@
 # healthcare-workshop
 
-Environment setup
+1. Environment setup
 You need to login to Azure portal and create an Azure ML workspace. Select West or North Europe as region for your workspace. 
-Here is the instruction to follow: https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-1st-experiment-sdk-setup.  Just create a workspace, do not run notebooks to save credits
+Here is the instruction to follow: https://docs.microsoft.com/en-us/azure/machine-learning/quickstart-create-resources
 
-Git repository: https://github.com/JennyPopova/healthcare-workshop.git  
-Clone repository to compute instance:  git clone https://github.com/JennyPopova/healthcare-workshop.git ./Users/healthcare-workshop
+2. Git repository: https://github.com/JennyPopova/healthcare-workshop.git  
 
-Tabular Dataset:  https://www.kaggle.com/sulianova/cardiovascular-disease-dataset
+Start Terminal in your Compute Instance
+In the Terminal Clone repository to compute instance:  _git clone https://github.com/JennyPopova/healthcare-workshop.git ./Users/healthcare-workshop__
+
+3. Dataset
+Download Dataset:  https://www.kaggle.com/sulianova/cardiovascular-disease-dataset
+Register Tabular dataset in AzureML with a name 'cardio_dataset' from local file
+
+4. Run automl-explain-model-SHAP.ipynb, explore Experiment section in Azure ML
+  Run custom-ml-deploy-explain.ipynb, explore Experiment section in Azure ML
+  
+5. Stop Compute Instance
 
 Links
 
