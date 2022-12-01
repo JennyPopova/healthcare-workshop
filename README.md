@@ -4,19 +4,24 @@
 You need to login to Azure portal and create an Azure ML workspace. Select West or North Europe as region for your workspace. 
 Here is the instruction to follow: https://docs.microsoft.com/en-us/azure/machine-learning/quickstart-create-resources
 
-2. Git repository: https://github.com/JennyPopova/healthcare-workshop.git  
+2. Dataset that are used for the demo:  https://www.kaggle.com/sulianova/cardiovascular-disease-dataset
+   Look at the description to understand the data
+
+3. Git repository: https://github.com/JennyPopova/healthcare-workshop.git  
 
 Start Terminal in your Compute Instance.
 
-In the Terminal Clone repository to compute instance:  _git clone https://github.com/JennyPopova/healthcare-workshop.git ./Users/healthcare-workshop_
+In the Terminal Clone repository to compute instance. Run the commad:  
+_git clone https://github.com/JennyPopova/healthcare-workshop.git_
 
-3. Download Dataset:  https://www.kaggle.com/sulianova/cardiovascular-disease-dataset
+
+4.1 Open and run **automl-RAI-dashboard.ipynb** notebook to lear about 
+   [Automl](https://learn.microsoft.com/en-us/azure/machine-learning/concept-automated-ml)
+   and [Responsible AI Toolbox](https://github.com/microsoft/responsible-ai-toolbox)
    
-   Register Tabular dataset in AzureML with a name 'cardio_dataset' from local file
+   Find more details and documentation in **RAI-tour.ipynb** notebook
 
-4. Run automl-explain-model-SHAP.ipynb, explore Experiment section in Azure ML.
-
-  Run custom-ml-deploy-explain.ipynb, explore Experiment section in Azure ML
+4.2 Run **custom-ml-deploy-explain.ipynb** to train custom model and deploy it as web-service together with explainer
   
 5. Stop Compute Instance
 
@@ -24,9 +29,11 @@ Links
 
 AzureML documentation: https://docs.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-ml
 
-Data Labeling: https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-labeling
-
 AzureML SDK: https://docs.microsoft.com/en-us/python/api/?view=azure-ml-py
+
+AutoML: https://learn.microsoft.com/en-us/azure/machine-learning/concept-automated-ml
+
+Responsible AI Toolbox: https://github.com/microsoft/responsible-ai-toolbox
 
 <br />  
 
